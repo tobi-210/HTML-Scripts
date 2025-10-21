@@ -1,2 +1,2 @@
 # HTML-Scripts
-All HTML Documents from the 2025/26
+All HTML Documents from 2025/26
