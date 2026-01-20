@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fach Netzwerktechnik</title>
+    <title>Variablen und Datentypen</title>
 </head>
+<body></body>
 
-<body>
+    <script>
+        
+        let vorname = "Tobi";
+        let alter = 15;                    
+        let Brille = false;
+        let lieblingsFaecher = ["Medientechnik", "Turnen", "Informatik"];
+        let lieblingsEssen = {  
+            name: "Pizza",
+            kategorie: "Fast Food",
+        };
 
-    <header>
-        <h1>Netzwerktechnik</h1>
-        <h2></h2>
-        <nav>
-            <a href="index.html">Start</a> |
-            <a href="ueberdasfach.html">Über das Fach </a>
-        </nav>
+        console.log("Vorname:", vorname);
+        console.log("Alter:", alter);
+        console.log("Hat Brille:", hatBrille);
+        console.log("Lieblingsfächer:", lieblingsFaecher);
+        console.log("Lieblingsessen:", lieblingsEssen);
 
-        <link rel="stylesheet" href="style.css">
-
-    </header>
-
-    <main>
-        <h1>Über das Fach:</h1>
-        <p>Das Fach Netzwerktechnik beschäftigt sich mit dem Aufbau von Netzwerken.</p>
-        <h1></h2>
-
-        <img src="Netzwerktechnik.png" alt="Netzwerktechnik" width="200px">
-
-            <section>
-                <h2>Kontakt</h2>
-                <p>
-                    <a href="mailto:tobias.knapp@sr.htlweiz.at">E-Mail senden</a><br>
-                    <a href="tel:+436601234567">Anrufen</a>
-                </p>
-            </section>
-
-    <footer>
-        <p>&copy; 2025 Mein Portfolio
-        <nav><a href="impressum.html">| Impressum |</a></p>
-        </nav>
-    </footer>
-
+        console.log("Typ von Vorname:", typeof vorname);
+        console.log("Typ von Alter:", typeof alter);
+        console.log("Typ von Hat Brille:", typeof Brille);
+        console.log("Typ von Lieblingsfächer:", typeof lieblingsFaecher);
+        console.log("Typ von Lieblingsessen:", typeof lieblingsEssen);
+    </script>
 </body>
-
 </html>
